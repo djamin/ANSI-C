@@ -10,10 +10,11 @@ int main()
         {
             if(num[i]>num[j])
             {
-                int temp;
+                int temp;              
+                //swap starts
                 temp=num[i];
                 num[i]=num[j];
-                num[j]=temp;
+                num[j]=temp;          
             }
 
         }
